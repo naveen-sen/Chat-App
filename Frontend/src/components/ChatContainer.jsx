@@ -75,7 +75,7 @@ export default function ChatContainer() {
 
               <div className={`rounded-2xl p-3 shadow-lg transition-opacity ${
                 message.senderId === authUser._id 
-                  ? "bg-gradient-to-r from-blue-400 to-indigo-700 text-white rounded-br-none ml-auto"
+                  ? "bg-gray-950 text-white rounded-br-none ml-auto"
                   : "bg-gray-800 text-gray-200 rounded-bl-none mr-auto"
               }`}>
                 {message.image && (
